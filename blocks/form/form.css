@@ -235,3 +235,21 @@
     width: max-content;
   }
 }
+
+.form-video-container .form-wrapper {
+  display: inline-block;
+  width: 40%;
+
+}
+
+.form-video-container .video-wrapper {
+  display: inline-block;
+  width: 40%;
+  height: 400px;
+}
+
+.form-video-container .video-wrapper .video.block.placeholder,
+.form-video-container .video-wrapper .video-placeholder {
+  margin: 0;
+  height: 100%;
+}
